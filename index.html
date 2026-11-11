@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dr. [Your Name] – Academic Profile</title>
+<style>
+:root{--bg:#fbfaf7;--text:#1d2530;--muted:#5d6877;--accent:#1f5fbf;--line:#e3e0d8;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#12161c;--text:#e8ebef;--muted:#9aa5b4;--accent:#7fb0ff;--line:#2a323d;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161c;--text:#e8ebef;--muted:#9aa5b4;--accent:#7fb0ff;--line:#2a323d;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.65 Georgia,"Times New Roman",serif}
+.wrap{max-width:780px;margin:0 auto;padding:28px 18px 56px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+h1{font-size:2rem;line-height:1.2;margin:0 0 6px}
+h2{font-size:1.25rem;margin:32px 0 8px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+.top{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.photo{position:relative;overflow:hidden;width:110px;height:110px;border-radius:50%;background:var(--line);display:flex;align-items:center;justify-content:center;color:var(--muted);font:.75rem system-ui,sans-serif;text-align:center;flex:none}
+.badge{display:inline-block;background:var(--accent);color:var(--bg);font:600 .8rem system-ui,sans-serif;padding:3px 10px;border-radius:99px;margin-bottom:8px}
+.sub{color:var(--muted);margin:0}
+ul,ol{padding-left:22px;margin:6px 0}
+li{margin-bottom:8px}
+.meta{color:var(--muted);font-size:.92rem}
+.lk{font:.85rem system-ui,sans-serif;white-space:nowrap}
+.award{font:600 .78rem system-ui,sans-serif;color:var(--accent);border:1px solid var(--accent);border-radius:99px;padding:1px 8px;white-space:nowrap}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+footer{margin-top:36px;text-align:center;color:var(--muted);font:.8rem system-ui,sans-serif}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="top">
+<div class="photo">Your photo<img src="photo.jpg" alt="Profile photo" onerror="this.remove()"></div>
+<div>
+<span class="badge">Open to postdoctoral positions</span>
+<h1>Dr. [Your Name]</h1>
+<p class="sub">PhD in [Your Field], [University], [Year]</p>
+</div>
+</div>
+
+<p style="margin-top:20px">I received my PhD in [field] from [University] in [year], advised by [Advisor]. My research is on [main topic], and I am looking for a postdoc position on [topics / type of lab]. See my <a href="cv.pdf">complete CV (PDF)</a>.</p>
+
+<h2>Contact</h2>
+<p>Email: you@university.edu<br>
+Affiliation: [Department], [University], [City, Country]<br>
+<a href="#">Google Scholar</a> · <a href="#">ORCID</a> · <a href="#">LinkedIn</a> · <a href="#">GitHub</a></p>
+
+<h2>Research interests</h2>
+<ul>
+<li>[Topic 1]: one line on what you do</li>
+<li>[Topic 2]: one line on what you do</li>
+<li>[Topic 3]: one line on what you do</li>
+</ul>
+
+<h2>Education</h2>
+<ul>
+<li><b>PhD in [Field]</b>, [University], [Years]. Advisor: [Name]. Thesis: “[Title]”.</li>
+<li><b>MSc in [Field]</b>, [University], [Years]. [Grade / GPA]</li>
+<li><b>BSc in [Field]</b>, [University], [Years]. [Grade / GPA]</li>
+</ul>
+
+<h2>Tools and code</h2>
+<ul>
+<li><a href="#">[Tool or project name]</a>: short description</li>
+<li><a href="#">[Tool or project name]</a>: short description</li>
+</ul>
+
+<h2>Publications</h2>
+<ol>
+<li>[Authors]. <b>[Paper title]</b>, [Venue] [Year]. <span class="award">Best paper award</span> <a class="lk" href="#">[arXiv]</a> <a class="lk" href="#">[PDF]</a> <a class="lk" href="https://doi.org/10.xxxx/paper1">[DOI]</a></li>
+<li>[Authors]. <b>[Paper title]</b>, [Venue] [Year]. <a class="lk" href="#">[arXiv]</a> <a class="lk" href="#">[PDF]</a></li>
+<li>[Authors]. <b>[Paper title]</b>, [Venue] [Year]. <a class="lk" href="#">[PDF]</a></li>
+</ol>
+
+<h2>Awards and talks</h2>
+<ul>
+<li>[Award or fellowship], [Year]</li>
+<li>[Conference talk or poster], [Year]</li>
+</ul>
+
+<footer>Last updated [Month Year] · Happy to talk about collaboration and postdoc opportunities</footer>
+</div>
+</body>
+</html>
